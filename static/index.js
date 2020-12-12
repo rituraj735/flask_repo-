@@ -1,11 +1,11 @@
 $(document).ready(function(){
     $("#first").click(function(){
-        console.log("first button");
+        console.log($(this)[0].outerText);
     });
     $("#second").click(function(){
-        console.log("second button");
+        console.log($(this)[0].outerText);
     });
     $("#third").click(function(){
-        console.log("third button");
+        console.log($(this)[0].outerText);
     });
 })
